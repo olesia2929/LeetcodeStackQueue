@@ -13,8 +13,6 @@ class MyQueue:
     def push(self, x: int) -> None:
         """
         Push element x to the back of queue.
-        :type x: int
-        :rtype: void
         """
         if not self.stack1:
             self.front = x
